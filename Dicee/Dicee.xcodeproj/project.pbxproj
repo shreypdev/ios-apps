@@ -14,11 +14,12 @@
 		ADB0E00622AFA60E0030352D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB0E00522AFA60E0030352D /* Assets.xcassets */; };
 		ADB0E00922AFA60E0030352D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB0E00722AFA60E0030352D /* LaunchScreen.storyboard */; };
 		ADE1FB1422B39F0200DD2BD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE1FB1322B39F0200DD2BD6 /* SceneDelegate.swift */; };
+		D6ED8AE2246A11DC00BAE466 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6ED8AE1246A11DC00BAE466 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ADAD913B22B0FDAE007B460A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		ADB0DFF922AFA6090030352D /* Dicee-iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dicee-iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB0DFF922AFA6090030352D /* Dicee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dicee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB0DFFC22AFA6090030352D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADB0E00022AFA6090030352D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADB0E00322AFA6090030352D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -26,6 +27,7 @@
 		ADB0E00822AFA60E0030352D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADB0E00A22AFA60E0030352D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADE1FB1322B39F0200DD2BD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D6ED8AE1246A11DC00BAE466 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		ADB0DFF022AFA6090030352D = {
 			isa = PBXGroup;
 			children = (
+				D6ED8AE1246A11DC00BAE466 /* Default-568h@2x.png */,
 				ADAD913B22B0FDAE007B460A /* README.md */,
 				ADB0DFFB22AFA6090030352D /* Dicee */,
 				ADB0DFFA22AFA6090030352D /* Products */,
@@ -51,7 +54,7 @@
 		ADB0DFFA22AFA6090030352D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADB0DFF922AFA6090030352D /* Dicee-iOS13.app */,
+				ADB0DFF922AFA6090030352D /* Dicee.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ADB0DFF822AFA6090030352D /* Dicee-iOS13 */ = {
+		ADB0DFF822AFA6090030352D /* Dicee */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADB0E00D22AFA60E0030352D /* Build configuration list for PBXNativeTarget "Dicee-iOS13" */;
+			buildConfigurationList = ADB0E00D22AFA60E0030352D /* Build configuration list for PBXNativeTarget "Dicee" */;
 			buildPhases = (
 				ADB0DFF522AFA6090030352D /* Sources */,
 				ADB0DFF622AFA6090030352D /* Frameworks */,
@@ -85,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "Dicee-iOS13";
+			name = Dicee;
 			productName = "Dicee-iOS13";
-			productReference = ADB0DFF922AFA6090030352D /* Dicee-iOS13.app */;
+			productReference = ADB0DFF922AFA6090030352D /* Dicee.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADB0DFF822AFA6090030352D /* Dicee-iOS13 */,
+				ADB0DFF822AFA6090030352D /* Dicee */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +134,7 @@
 				ADB0E00922AFA60E0030352D /* LaunchScreen.storyboard in Resources */,
 				ADB0E00622AFA60E0030352D /* Assets.xcassets in Resources */,
 				ADAD913C22B0FDAE007B460A /* README.md in Resources */,
+				D6ED8AE2246A11DC00BAE466 /* Default-568h@2x.png in Resources */,
 				ADB0E00422AFA6090030352D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Dicee-iOS13/Info.plist";
+				INFOPLIST_FILE = Dicee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Dicee-iOS13/Info.plist";
+				INFOPLIST_FILE = Dicee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADB0E00D22AFA60E0030352D /* Build configuration list for PBXNativeTarget "Dicee-iOS13" */ = {
+		ADB0E00D22AFA60E0030352D /* Build configuration list for PBXNativeTarget "Dicee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADB0E00E22AFA60E0030352D /* Debug */,
